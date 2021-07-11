@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.frankyang.slk.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SoundEngineMixin"
+  ],
+  "client": [
+    "SourceInvoker",
+    "SourceSetImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
